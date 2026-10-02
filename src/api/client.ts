@@ -8,7 +8,7 @@ export const baseApi = axios.create({
 });
 
 baseApi.interceptors.response.use(
-  (response: AxiosResponse<any, any, {}, any>) => {
+  (response: AxiosResponse<unknown, unknown, {}, unknown>) => {
     // Any status code within the range of 2xx triggers this function
     // Transform or format data globally if needed
     return response;
