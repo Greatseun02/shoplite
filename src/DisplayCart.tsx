@@ -8,9 +8,8 @@ export default function DisplayCart() {
       <div>
         {items.map((item) => (
           <div>
-            <p>
-              {item.title} . {item.price}
-            </p>
+            <p>{item.title}</p>
+            <p>{item.price}</p>
           </div>
         ))}
       </div>
