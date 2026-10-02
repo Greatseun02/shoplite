@@ -4,7 +4,7 @@ import type { Product } from "./types";
 import { getCategories, getProducts } from "./api/products";
 
 export function FirstFetch() {
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products] = useState<Product[]>([]);
 
   const getData = async () => {
     // ❌ One after another: the second request waits for the first

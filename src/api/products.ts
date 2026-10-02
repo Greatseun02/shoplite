@@ -7,7 +7,6 @@ import type {
   CreateProductResponse,
   GetProductsResponse,
 } from "../model/response/ProductResponse";
-import type { Product } from "../types";
 import { baseApi, rtkApi } from "./client";
 
 const controller = "product";
