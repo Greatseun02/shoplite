@@ -1,4 +1,6 @@
 // src/api/client.ts
+/* eslint-disable @typescript-eslint/no-empty-object-type */
+
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import axios, { AxiosError, type AxiosResponse } from "axios";
 
